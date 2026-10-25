@@ -1,16 +1,52 @@
-## Hi there 👋
+Rakeem Brewington
+AWS Cloud Engineering | DevOps | Infrastructure Automation
+I'm an AWS cloud and DevOps engineer in the Orlando, Florida area focused on building reliable, secure, and maintainable systems. My hands-on portfolio covers infrastructure as code, container orchestration, serverless applications, CI/CD, monitoring, and troubleshooting.
 
-<!--
-**Rakeem08/Rakeem08** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I also bring more than 15 years of team and operations leadership—coordinating people, resolving problems under deadlines, and communicating clearly across stakeholders. I'm interested in junior cloud engineering, cloud operations, DevOps, and site reliability engineering opportunities.
 
-Here are some ideas to get you started:
+Portfolio & project walkthroughs · GitHub projects
+Technical toolkit
+- Cloud: AWS EC2, S3, IAM, VPC, ECR, ECS Fargate, EKS, Lambda, API Gateway, DynamoDB, SQS, SNS, CloudWatch
+- Infrastructure & automation: Terraform, Ansible, Linux, Bash, Python
+- Containers & delivery: Docker, Kubernetes, Helm, Jenkins, GitHub Actions, Argo CD, Git
+- Operations: Health checks, autoscaling, logging, alerts, runbooks, incident troubleshooting
+Featured cloud projects
+1. Serverless Order Processing on AWS
+Business scenario: An order service needs to handle retries, traffic bursts, and processing failures without losing visibility into order status.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
+Built an authenticated API with API Gateway, Cognito, Python Lambda, DynamoDB, SQS, and S3. Implemented idempotent order handling, a dead-letter queue, CloudWatch alarms, SNS notifications, and an operational failure drill. Infrastructure is defined with Terraform.
+
+Reliability focus: Failure isolation, monitoring, asynchronous processing, and documented response procedures.
+2. Kubernetes Deployment & GitOps on AWS EKS
+Business scenario: A growing application needs repeatable deployments and the ability to scale with demand.
+
+Provisioned EKS with Terraform and deployed a Dockerized Node.js service using Kubernetes and Helm. Practiced autoscaling and troubleshooting deployment issues, with GitHub Actions and Argo CD for GitOps-based delivery.
+
+Reliability focus: Pod health, capacity scaling, cluster troubleshooting, and consistent releases.
+3. Containerized Application Delivery on ECS
+Business scenario: A two-service application needs consistent deployments with less manual work.
+
+Containerized React and Express services using Docker, published images to Amazon ECR, and deployed them on ECS Fargate behind an Application Load Balancer. Automated delivery with Jenkins and provisioned AWS infrastructure using Terraform.
+
+Operations focus: Health checks, autoscaling, CI/CD, and API routing troubleshooting.
+4. Terraform & Ansible Infrastructure Automation
+Business scenario: Provisioning and configuring web servers manually creates inconsistency and slows recovery.
+
+Used Terraform to provision EC2, IAM, networking, and S3 resources, then Ansible to configure Nginx and validate HTTP responses. Documented operational steps and cleaned up resources to manage cloud costs.
+
+Operations focus: Repeatable provisioning, Linux configuration, verification, and cost awareness.
+Certifications & development
+- CompTIA Security+ (2026)
+- Google Cybersecurity Professional Certificate
+- AWS Cloud Engineering training — Apex Infrastructure (2026)
+How I approach engineering
+1. Understand the business need: reliability, security, scalability, and cost.
+2. Automate repeatable work: infrastructure and deployments belong in version control.
+3. Make failures visible: metrics, logs, alerts, and meaningful health checks.
+4. Document decisions: what failed, why it happened, and how to improve the system.
+Explore the project READMEs for architecture diagrams, implementation details, and troubleshooting notes.
+
+Website: https://rakeembrewington.com/
+Contact: RakeemBrewington8@gmail.com
 - ⚡ Fun fact: ...
 -->
